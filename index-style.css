@@ -684,11 +684,23 @@
        }
 
 /*Career Page*/
+#career_section{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
     #jobpost{
-        color: darkgray;
+        color: rgb(58, 82, 180);
+        font-size: 30px;
     }
     #jotformlisting{
         padding-top: 100px;
+    }
+    #careertext {
+        margin-top: 0%;
     }
 }
 
@@ -1490,10 +1502,22 @@
        }
 
 /*Career Page*/
+#career_section{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;}
+
     #jobpost{
-        color: darkgray;
-    }
+        color: rgb(58, 82, 180);
+        font-size: 15px;
+  
+        }
     #jotformlisting{
         padding-top: 100px;
     }
+    
+
 }

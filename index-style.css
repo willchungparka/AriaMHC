@@ -118,6 +118,7 @@
         word-wrap: break-word;
         margin-left: 2.5%;
         margin-right: 2.5%;
+        font-family: Inter;
     }
 
     b {
@@ -867,8 +868,8 @@
     }
     
     #navbar-hamburger {
-        width: 5%;
-        height: 75px;
+        width: 2em;
+        height: 100%;
         padding-right: 20px; /* Add padding to the hamburger */
         position: absolute; /* Position the hamburger absolutely */
         right: 0; /* Align the hamburger to the right */
@@ -878,6 +879,12 @@
         justify-content: center;
         cursor: pointer; /* Make it look clickable */
     }
+        
+    #navbar-hamburger-logo{
+        width: 2em;
+
+    }
+
 
     #top-nav-bar{
         display: none; /* Hidden by default */
